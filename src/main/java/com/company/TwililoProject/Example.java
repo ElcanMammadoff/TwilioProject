@@ -15,8 +15,8 @@ import java.util.List;
 @RequestMapping("/")
 public class Example {
 
-    public static final String ACCOUNT_SID = "AC836ad6c9d93346693380d13c0a786bc3";
-    public static final String AUTH_TOKEN = "7ba7ddae91cdc764642b293e72a863b3";
+    public static final String ACCOUNT_SID = "MY-ACCOUNT-SID";
+    public static final String AUTH_TOKEN = "MY-AUTH-TOKE";
 
     @GetMapping("/main")
     public void main() {
