@@ -22,6 +22,7 @@ public class Example {
     public void main() {
         System.out.println("ACCOUNT_SID: " + ACCOUNT_SID);
         System.out.println("AUTH_TOKEN: " + AUTH_TOKEN);
+        System.out.println("this is SID and TOKEN");
 
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
 
