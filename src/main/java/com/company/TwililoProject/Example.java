@@ -16,7 +16,7 @@ import java.util.List;
 public class Example {
 
     public static final String ACCOUNT_SID = "MY-ACCOUNT-SID";
-    public static final String AUTH_TOKEN = "MY-AUTH-TOKE";
+    public static final String AUTH_TOKEN = "MY-AUTH-TOKEN";
 
     @GetMapping("/main")
     public void main() {
